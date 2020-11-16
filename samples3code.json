@@ -1,5 +1,5 @@
 {
-    "AWSTemplateFormatVersion": "2020-11-06",
+    "AWSTemplateFormatVersion": "2010-09-09",
     "Resources": {
         "S3Bucket": {
             "Type": "AWS::S3::Bucket"
@@ -10,7 +10,7 @@
             "Value": {
                 "Ref": "S3Bucket"
             },
-            "Description": "Name of the sample Amazon S3 bucket. Added More"
+            "Description": "Name of the sample Amazon S3 bucket."
         }
     }
 }
